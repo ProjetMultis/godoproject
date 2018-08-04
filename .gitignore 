@@ -6,7 +6,7 @@ trellis/vagrant.local.yml
 trellis/vendor
 trellis/*.py[co]
 trellis/*.retry
-trellis/group_vars/staging/wordpress_sites.yml
+trellis/group_vars/production/wordpress_sites.yml
 
 
 

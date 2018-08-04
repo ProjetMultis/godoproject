@@ -5,3 +5,4 @@ vagrant.local.yml
 *.py[co]
 *.retry
 /group_vars/production/wordpress_sites.yml
+

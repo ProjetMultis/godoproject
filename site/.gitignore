@@ -21,3 +21,4 @@ web/.htaccess
 # Composer site
 vendor/*
 !vendor/.gitkeep
+

@@ -1,0 +1,38 @@
+#trellis
+
+trellis/.vault_pass
+trellis/.vagrant
+trellis/vagrant.local.yml
+trellis/vendor
+trellis/*.py[co]
+trellis/*.retry
+trellis/group_vars/staging/wordpress_sites.yml
+
+
+
+#site
+
+site/vendor
+site/.github
+site/.env
+
+# Application site
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress site
+web/wp
+web/.htaccess
+
+# Dotenv site
+.env
+.env.*
+!.env.example
+
+# Composer site
+vendor/*
+!vendor/.gitkeep
